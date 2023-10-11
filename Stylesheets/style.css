@@ -1,0 +1,648 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Header */
+
+header {
+  height: 5vh;
+  background-color: #404040;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: antiquewhite;
+  margin-right: 10px;
+  font-family: "Abel", sans-serif;
+}
+
+.navbar ul li a:hover {
+  color: #1560bd;
+}
+
+.login-icon {
+  display: flex;
+  font-family: "Abel", sans-serif;
+  color: antiquewhite;
+}
+
+.login,
+.download {
+  display: flex;
+  padding-right: 23px;
+  align-items: center;
+}
+
+/* Get Started */
+
+.logo img {
+  height: 100px;
+}
+
+.navbar-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#navbar2 ul li a {
+  color: black;
+  font-size: 20px;
+  margin-left: 10px;
+  padding-bottom: 15px;
+}
+#navbar2 ul li a:hover {
+  border: 5px solid orange;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+#navbar2 ul li a:hover {
+  color: #13274f;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.show {
+  display: block;
+}
+.dropdown-content-btech {
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+  z-index: 1;
+  margin-top: 46px;
+  font-family: "Abel";
+  width: 140vh;
+  height: 362px;
+  margin-left: -250px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.dropdown-content-btech a {
+  float: none;
+  color: black;
+  padding: 12px 0px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.btc-top-college p {
+  margin-left: 10px;
+  font-size: 1.1em;
+  padding-bottom: 10px;
+}
+
+.btc-top-college ul {
+  display: flex;
+  flex-direction: column;
+}
+#btcdropdown-content-row ul li a {
+  margin-left: 0px;
+  padding-left: 16px;
+}
+
+#btcdropdown-content-row ul li a:hover {
+  border: 5px solid orange;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  background-color: #fff;
+}
+
+.btcdropdown-content-row {
+  display: inline-block;
+  background-color: #f0f0f0;
+}
+
+.btcdropdown-content-row ul {
+  display: inline-flex;
+  flex-direction: column;
+  width: 275px;
+  background-color: #f0f0f0;
+}
+
+#btc-top-college ul li a,
+#btc-top-college-state ul li a {
+  padding: 3px 0px;
+  font-size: 18px;
+}
+#btc-top-college ul li a:hover,
+#btc-top-college-state ul li a:hover {
+  color: orange;
+  border-bottom: none;
+}
+
+.btcrow2 {
+  padding-top: 45px;
+}
+
+.btcrow3 {
+  padding-top: 65px;
+}
+
+.getstarted::before {
+  content: "";
+  background: url(../Images/background/1.jpg) center no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  height: 100vh;
+  width: 100%;
+  opacity: 0.95;
+}
+
+.getstarted-div {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.getstarted-div p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 3.5em;
+}
+
+.getstarted-div p a {
+  color: #13274f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  padding: 23px 0px;
+}
+.input input {
+  height: 2.5em;
+  width: 800px;
+  outline: none;
+  border: none;
+  font-size: 1.25em;
+  font-family: "Roboto";
+}
+.right {
+  height: 50px;
+  width: 50px;
+  background-color: orange;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input svg {
+  height: 29px;
+  width: 50px;
+}
+
+.how {
+  padding: 43px 0px;
+}
+.how a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.55em;
+  color: white;
+}
+
+.btn {
+  width: 123px;
+  height: 43px;
+  background-color: orange;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.12em;
+  font-family: "Roboto";
+  color: white;
+}
+
+.btn:hover {
+  background-color: rgb(153, 102, 6);
+  cursor: pointer;
+}
+
+/* Explore */
+.explore-h1 {
+  padding: 33px 0px;
+}
+
+.explore-h1 h1,
+.explore-p {
+  font-family: "Abel", sans-serif;
+  color: #13274f;
+  text-align: center;
+}
+
+.explore-h1 h1 {
+  font-size: 2.45em;
+}
+
+.explore-p {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.explore-p p {
+  padding-top: 12px;
+  font-size: 1.2345em;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.explore-card {
+  height: 250px;
+  width: 300px;
+  padding: 23px;
+}
+
+.card-img img {
+  width: 200px;
+  height: 150px;
+}
+
+.card-img {
+  display: flex;
+  justify-content: center;
+}
+
+.card-h1 {
+  text-align: center;
+  font-family: "Roboto";
+}
+
+.explore-card:hover,
+.future-card:hover {
+  color: #007fff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  cursor: pointer;
+}
+
+.gray {
+  color: gray;
+  padding-top: 8px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 23px 0px;
+}
+
+.card-h1 h3 {
+  padding-top: 12px;
+}
+
+/* FUTURE */
+
+.future {
+  background-color: #f0f0f0;
+}
+
+.future-switch-1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.future-switch {
+  display: inline-flex;
+  padding: 23px 39px;
+  font-size: 1.55em;
+  font-family: "Abel", sans-serif;
+}
+
+.colleges {
+  padding: 20px 0px;
+  padding-right: 15px;
+  padding-left: 33px;
+  background-color: #c0c0c0;
+  border-top-left-radius: 39px;
+  border-bottom-left-radius: 40px;
+}
+
+.colleges:hover,
+.exams:hover {
+  cursor: pointer;
+}
+.exams {
+  padding: 20px 0px;
+  padding-right: 21px;
+  padding-left: 18px;
+  border-top-right-radius: 39px;
+  border-bottom-right-radius: 40px;
+  background-color: #c0c0c0;
+}
+.bcc {
+  background-color: #13274f;
+  color: white;
+}
+
+.future-card {
+  padding: 20px;
+  height: 182px;
+  text-align: center;
+  width: 200px;
+}
+
+.future-card img {
+  width: 100px;
+  height: 100px;
+  padding-bottom: 10px;
+}
+
+.future-card h3 {
+  font-family: "Roboto";
+  font-size: 1.356em;
+  padding-bottom: 3px;
+  color: #13274f;
+}
+
+.future-card {
+  font-family: "Abel";
+  color: gray;
+}
+
+.row1 {
+  display: block;
+  padding-left: 46px;
+}
+
+.excol {
+  color: gray;
+}
+
+/* STUDY ABROAD */
+
+.flag {
+  height: 263px;
+}
+.flag img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 23px;
+}
+
+.all {
+  display: flex;
+  justify-content: center;
+  padding: 23px 0px;
+}
+.all a {
+  font-size: 1.5em;
+  text-decoration: none;
+  color: orange;
+  font-family: "Abel";
+}
+
+/* TOP COURSES */
+
+.top-courses {
+  background-color: orange;
+  padding-bottom: 23px;
+}
+
+.top-courses h2 {
+  padding: 23px 0px;
+  font-family: "Abel", sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 2em;
+}
+
+.qwe {
+  font-family: "Roboto";
+  color: white;
+  border: 2px solid;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 10px;
+  margin-left: 13px;
+}
+
+.qw1 {
+  display: flex;
+  padding: 5px 0px;
+  padding-left: 23px;
+  justify-content: center;
+}
+.qwe:hover {
+  background-color: white;
+  color: #c0c0c0;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+/* TOP Exams */
+
+.top-exams {
+  padding-bottom: 23px;
+}
+
+.top-exam-card {
+  width: 375px;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+.exam-card-1 h1 {
+  font-family: "Roboto";
+  padding-bottom: 3px;
+}
+
+.exam-card-1 p {
+  padding-bottom: 12px;
+  font-size: 1.32em;
+  font-family: "Abel";
+}
+
+.exam-card-1 p a {
+  text-decoration: none;
+  color: red;
+  font-size: 1.135em;
+}
+
+.top-exam-card-links a {
+  text-decoration: none;
+  color: blue;
+  font-size: 1.145em;
+  font-family: "Abel";
+}
+
+.exam-2 {
+  padding: 33px 0px;
+  background-color: rgb(238, 82, 82);
+}
+
+.admission {
+  background-color: orange;
+  padding: 23px 0px;
+}
+
+/* Featured */
+
+.featured::before {
+  background-color: #f0f0f0;
+  content: "";
+  background-size: cover;
+  position: absolute;
+  z-index: -2;
+  height: 122vh;
+  width: 100%;
+  opacity: 0.95;
+}
+.featured-card {
+  width: 400px;
+  height: 300px;
+  /* border: 2px solid #c0c0c0; */
+  border-top-style: none;
+}
+.featured-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  cursor: pointer;
+}
+
+.fci {
+  width: 400px;
+  height: 200px;
+}
+
+.featured-card-img-1::before {
+  content: "";
+  background: url(../Images/colleges/college-1.jfif) center no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  height: 200px;
+  width: 400px;
+  opacity: 0.95;
+}
+.featured-card-img-2::before {
+  content: "";
+  background: url(../Images/colleges/college-2.jpg) center no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  height: 200px;
+  width: 400px;
+  opacity: 0.95;
+}
+.featured-card-img-3::before {
+  content: "";
+  background: url(../Images/colleges/college-3.jpg) center no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  height: 200px;
+  width: 400px;
+  opacity: 0.95;
+}
+.featured-card-img-4::before {
+  content: "";
+  background: url(../Images/colleges/college-4.jpg) center no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  height: 200px;
+  width: 400px;
+  opacity: 0.95;
+}
+.featured-card-img-5::before {
+  content: "";
+  background: url(../Images/colleges/college-5.jpg) center no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  height: 200px;
+  width: 400px;
+  opacity: 0.95;
+}
+.featured-card-img-6::before {
+  content: "";
+  background: url(../Images/colleges/college-6.jpg) center no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -1;
+  height: 200px;
+  width: 400px;
+  opacity: 0.95;
+}
+
+.ratings {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  align-items: flex-end;
+  font-family: "JetBrains Mono";
+}
+
+.heart {
+  display: flex;
+  align-items: center;
+}
+
+.college-name {
+  display: flex;
+  flex-direction: column;
+  height: 153px;
+  justify-content: flex-end;
+  color: white;
+  font-family: "Roboto";
+  font-size: 1.2em;
+}
+
+.college-name-city {
+  font-size: 0.8em;
+}
+
+.featured-course-name {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Abel";
+  font-size: 1.2em;
+}
+
+.featured-fees {
+  font-size: 1.1em;
+  padding: 1px 10px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Abel";
+}
+
+.featured-fees a {
+  text-decoration: none;
+  color: #00308f;
+  font-size: 0.9em;
+}
+
+.hide {
+  display: none;
+}
